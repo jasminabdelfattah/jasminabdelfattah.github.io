@@ -3,24 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Teaching Portfolio</title>
+    <title>Jasmin's Teaching Portfolio - About</title>
+    <link rel="stylesheet" href="starter.css">
+
 </head>
 <body>
     <!-- This is my page heading and I have changed the colour-->
    <header>
-        <h1 style="color: #017569;">About Me</h1>
+        <h1>About Me</h1>
    </header> 
     <!--Navigation menu. Use of target self link, taking the user to other pages within my website-->
-   <nav>
+    <nav>
+      <div class="container">
         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="teachingpractice.html">Teaching Practice</a></li> 
-            <li><a href="contact.html">Contact Me</a></li> 
-            <li><a href="projects.html">Project Showcase</a></li>
-            <li><a href="about.html">About Me</a></li> 
-            <li><a href="worksamples.html">Work Samples</a></li> 
-        </ul> 
-   </nav> 
+          <li><a href="index.html">Home</a></li>
+          <li><a href="teachingpractice.html">Teaching Practice</a></li> 
+          <li><a href="contact.html">Contact Me</a></li> 
+          <li><a href="projects.html">Project Showcase</a></li>
+          <li><a class="active" href="about.html">About Me</a></li> 
+          <li><a href="worksamples.html">Work Samples</a></li> 
+        </ul>
+      </div>  
+    </nav>   
    <main>
     <!--This is the main content area of my page-->
         <section>
@@ -34,11 +38,18 @@
             <img src="images/teaching-area-graphic.png" alt="Infographic showing main teaching areas: Textiles, Food Technology, Graphics Technology and Digital Technology" width="1000px"> <!--alt text and image resizing-->
         </section>
         <section>
-            <!--This is the subheading for the 'about me' overview-->
-            <h4 style="font-family: 'Times New Roman', Times, serif;">A little about myself:</h4>
-            <!--This is an overview of my professional experience, with an embedded target blank link-->
-            <p> <em>I am a passionate and dedicated pre-service teacher currently studying education at <a href="https://www.acu.edu.au/" target="_blank"> Australian Catholic University </a>, with a focus TAS. My journey into teaching stems from a deep love for learning and a desire to make a meaningful impact on young people's lives. I believe in creating inclusive, supportive and engaging classroom environments where students feel safe to explore ideas, ask questions and grow both academically and personally.</em> </p>
-            <p> <em>Throughout my studies, I’ve developed strong skills in lesson planning, classroom management and integrating technology into learning. I’ve completed professional experience placements in diverse school settings, where I’ve had the opportunity to teach, reflect and grow. Outside the classroom, I enjoy reading and travelling, which also influence my teaching style and ability to connect with students. I am committed to becoming the kind of teacher who not only educates but inspires.</em> </p>
+            <article class="profile"> 
+                <div class="profile-text">
+                    <!--This is the subheading for the 'about me' overview-->
+                    <h4 style="font-family: 'Times New Roman', Times, serif;">A little about myself:</h4>
+                    <!--This is an overview of my professional experience, with an embedded target blank link-->
+                    <p> <em>I am a passionate and dedicated pre-service teacher currently studying education at <a href="https://www.acu.edu.au/" target="_blank"> Australian Catholic University </a>, with a focus TAS. My journey into teaching stems from a deep love for learning and a desire to make a meaningful impact on young people's lives. I believe in creating inclusive, supportive and engaging classroom environments where students feel safe to explore ideas, ask questions and grow both academically and personally.</em> </p>
+                    <p> <em>Throughout my studies, I’ve developed strong skills in lesson planning, classroom management and integrating technology into learning. I’ve completed professional experience placements in diverse school settings, where I’ve had the opportunity to teach, reflect and grow. Outside the classroom, I enjoy reading and travelling, which also influence my teaching style and ability to connect with students. I am committed to becoming the kind of teacher who not only educates but inspires.</em> </p>
+                </div>
+                <div class="profile-photo">
+                    <img src="images/profile-square-rounded-JA.png"; alt="Photo of Jasmin smiling with a round frame"> <!--This is. placeholder for the time being-->
+                </div>
+            </article>
         </section>
         <section>
             <!--This section provides an overview of my professional placements in table format-->
@@ -74,6 +85,12 @@
                 </tbody>
             </table>
         </section>
-   </main> 
+   </main>
+   <!--This is the footer for each page, in line with Semantic HTML-->
+    <footer>
+    <div class='container'> 
+        <p> &copy; 2025 Jasmin Abdelfattah. All rights reserved.</p>
+    </div>
+    </footer> 
 </body>
 </html>

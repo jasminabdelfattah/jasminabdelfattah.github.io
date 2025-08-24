@@ -3,23 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jasmin's Teaching Portfolio</title>
+    <title>Jasmin's Teaching Portfolio - Home</title>
+    <link rel="stylesheet" href="starter.css">
 </head>
 <body>
     <!-- Main heading for the home page-->
      <header>
-      <h1 style="color:#017569;">My Teaching Portfolio</h1> 
+      <h1>My Teaching Portfolio</h1> 
    </header>
    <!--Navigation menu. Use of target self link, taking the user to other pages within my website-->
    <nav>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="teachingpractice.html">Teaching Practice</a></li> 
-      <li><a href="contact.html">Contact Me</a></li> 
-      <li><a href="projects.html">Project Showcase</a></li>
-      <li><a href="about.html">About Me</a></li> 
-      <li><a href="worksamples.html">Work Samples</a></li> 
-    </ul>
+      <div class="container">
+        <ul>
+          <li><a class="active" href="index.html">Home</a></li>
+          <li><a href="teachingpractice.html">Teaching Practice</a></li> 
+          <li><a href="contact.html">Contact Me</a></li> 
+          <li><a href="projects.html">Project Showcase</a></li>
+          <li><a href="about.html">About Me</a></li> 
+          <li><a href="worksamples.html">Work Samples</a></li> 
+        </ul>
+      </div>  
    </nav>
    <!--This is the main content area of my page, in line with Semantic HTML-->
    <main>
@@ -48,5 +51,11 @@
       </ol>
     </section>
   </main> 
+  <!--This is the footer for each page, in line with Semantic HTML-->
+  <footer>
+    <div class='container'> 
+        <p> &copy; 2025 Jasmin Abdelfattah. All rights reserved.</p>
+    </div>
+  </footer>
 </body>
 </html> 
