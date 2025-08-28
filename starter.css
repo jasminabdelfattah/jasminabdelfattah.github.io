@@ -27,7 +27,7 @@ img {
 :root {
   --brand: linear-gradient(0deg, #f6416c,#ff9a9e);         /* primary colour */
   --brand-2: #f39c12;                                        /* accent colour */
-  --bg: url("images/background-image.jpg");                    /* page background image */
+  --bg: url("images/background-image.jpg");                    /* page background image NEED TO FIX SIZE */
   --head: #ffffff;                                           /* main header colour */
   --text: #222222;                                           /* default text */
   --muted: #666666;                                          /* secondary text */
