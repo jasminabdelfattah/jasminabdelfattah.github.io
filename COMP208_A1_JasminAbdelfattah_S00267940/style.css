@@ -1,0 +1,32 @@
+
+h1 {
+    color:cornflowerblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    background-image: url("images/background-image.jpg");
+    background-position: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.profile-text {
+flex: 1;
+}
+
+.profile-photo { /* This section specifically is the bane of my existance - will need to fix */
+    border-radius: 8px;
+    width: 60%;
+}
