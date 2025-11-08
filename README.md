@@ -14,7 +14,7 @@ Navigation background: #ffffff
 Navigation hover: #f9d6db
 Navigation active: #f9d6db
 
-# COMP208 Assessment Task 1 – Website Design Proposal
+# COMP208 Assessment Task 3 – Final Project
 
 **Student:** Jasmin Abdelfattah  
 **Student ID:** S00267940  
