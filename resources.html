@@ -1,80 +1,94 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!DOCTYPE HTML>
+<!--
+  Arcana by HTML5 UP
+  html5up.net | @ajlkn
+  Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<!-- Template: Arcana by HTML5 UP | Modified by Jasmin Abdelfattah for COMP208 AT3 -->
+<html>
+  <head>
     <title>Jasmin's Teaching Portfolio - Resources</title>
-    <link rel="stylesheet" href="starter.css">
-</head>
-<body>
-    <!--This is my header-->
-    <header>
-       <h1>Resources</h1> 
-    </header>
-    <!--Navigation menu. Use of target self link, taking the user to other pages within my website-->
-    <nav>
-      <div class="container">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="teachingpractice.html">Teaching Practice</a></li> 
-          <li><a href="contact.html">Contact Me</a></li> 
-          <li><a href="projects.html">Project Showcase</a></li>
-          <li><a href="about.html">About Me</a></li> 
-          <li><a href="worksamples.html">Work Samples</a></li> 
-          <li><a class="active" href="resources.html">Resources</a></li> 
-          <li><a href="resume.html">Resume</a></li> 
-        </ul>
-      </div>  
-    </nav> 
-<!--This is the main content area of my page-->
-    <main>
-        <!--This is Card 1 - D&T Unit of Work-->
-        <section class="section">
-            <h2>Unit Resources</h2>
-            <p>Below you can find a range of sample units I have used either for implementation or as a scaffold for taught units, all taken from the NESA resources portal.</p>
-            <p>Please feel free to download for your own implementation.</p>
-            <div class="card-grid">
-                <article class="card">
-                    <a href="docs/d&t unit.pdf" target="_blank" rel="noopener">
-                        <img src="images/design-and-tech-unit-thumbnail.png" alt="Thumbnail of Stage 5 Design and Technologies unit of work"> 
-                    </a>
-                    <div class="content">
-                        <h3>Stage 5 Design and Technology - Sample Unit of Work</h3>
-                        <p>This resource showcases a Stage 5 unit of work covering Marketing.</p>
-                    </div>
-                </article>
-            </div>
-        <!--This is Card 2 - Engineering Unit of Work-->
-            <div class="card-grid">
-                <article class="card">
-                    <a href="docs/engineering unit.pdf" target="_blank" rel="noopener">
-                        <img src="images/engineering-unit-thumbnail.png" alt="Thumbnail of Stage 4 Engineering unit of work"> 
-                    </a>
-                    <div class="content">
-                        <h3>Stage 4 Engineering - Sample Unit of Work</h3>
-                        <p>This resource showcases a Stage 4 unit of work covering Virtual Design.</p>
-                    </div>
-                </article>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+  <body class="is-preload">
+    <div id="page-wrapper">
 
-        <!--This is Card 3 - Textiles Unit of Work-->
-            <div class="card-grid">
-                <article class="card">
-                    <a href="docs/textiles unit.pdf" target="_blank" rel="noopener">
-                        <img src="images/textiles-unit-thumbnail.png" alt="Thumbnail of Stage 5 Textiles Technology unit of work"> 
-                    </a>
-                    <div class="content">
-                        <h3>Stage 5 Textiles Texhnology - Sample Unit of Work</h3>
-                        <p>This resource showcases a Stage 5 unit of work covering The Textiles Industry.</p>
-                    </div>
-                </article>
-            </div>
-        </section>
+      <!-- Header -->
+      <div id="header">
 
-    </main>
-<footer>
-    <div class='container'> 
-        <p> &copy; 2025 Jasmin Abdelfattah. All rights reserved.</p>
+        <!-- Logo -->
+        <h1><a href="index.html" id="logo">Jasmin’s Teaching Portfolio</a></h1>
+
+        <!-- Nav -->
+        <nav id="nav">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="teachingpractice.html">Teaching Practice</a></li>
+            <li><a href="contact.html">Contact Me</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li class="current"><a href="resources.html">Resources</a></li>
+            <li><a href="resume.html">Resume</a></li>
+          </ul>
+        </nav>
+
+      </div>
+
+      <main>
+    <!--Taken from A1-->
+    <div class="box tp-philosophy">
+      <header class="major">
+        <h2>Unit Resources</h2>
+      </header>
+
+      <p>Below you can find a range of sample units I have used either for implementation or as a scaffold for taught units, all taken from the NESA resources portal.</p>
+      <p>Please feel free to download for your own implementation.</p>
+
+      <div class="resources-grid">
+        <!-- Card 1 -->
+        <article class="resource-card">
+          <a href="docs/d&t unit.pdf" download>
+            <img src="images/design-and-tech-unit-thumbnail.png" alt="Stage 5 Design and Technologies unit of work thumbnail">
+            <h3>Stage 5 Design and Technology</h3>
+          </a>
+        </article>
+
+        <!-- Card 2 -->
+        <article class="resource-card">
+          <a href="docs/engineering unit.pdf" download>
+            <img src="images/engineering-unit-thumbnail.png" alt="Stage 4 Engineering unit of work thumbnail">
+            <h3>Stage 4 Engineering</h3>
+          </a>
+        </article>
+
+        <!-- Card 3 -->
+        <article class="resource-card">
+          <a href="docs/textiles unit.pdf" download>
+            <img src="images/textiles-unit-thumbnail.png" alt="Stage 5 Textiles Technology unit of work thumbnail">
+            <h3>Stage 5 Textiles Technology</h3>
+          </a>
+        </article>
+      </div>
     </div>
-</footer>  
-</body>
+  </main>
+
+      <!-- Footer -->
+      <div id="footer">
+        <div class="copyright">
+          <p>&copy; 2025 Jasmin Abdelfattah. All rights reserved.</p>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.dropotron.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+
+  </body>
 </html>

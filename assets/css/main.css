@@ -2451,7 +2451,7 @@ input, select, textarea {
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #50c8fc;
+			background-color: #fff;
 			color: #fff !important;
 		}
 
@@ -2815,7 +2815,7 @@ input, select, textarea {
 			}
 
 				.wrapper.style3 .button:hover {
-					color: #37c0fb !important;
+					color: #fff !important;
 				}
 
 /* CTA */
@@ -3556,6 +3556,82 @@ input[type="submit"]:hover {
   margin-top: 5px;
 }
 
+/* About page bits reusing Teaching Practice styles */
+.tp-graphic{
+  display:block;
+  margin: 0 auto 1.5rem;
+  max-width: min(100%, 960px);
+  height:auto;
+}
 
+.tp-card--text{
+  text-align: left;             /* tp-card is centred by default */
+  padding: clamp(16px, 3vw, 28px);
+  height: auto;
+  min-height: unset;
+}
+
+.box.tp-philosophy {
+  margin-top: 4rem;   /* matches the Teaching Practice spacing */
+}
+
+.tp-card a {
+  color: #fff; /*reused from existing CSS*/
+}
+
+.tp-card a:hover {
+  color: #ffe1ec; 
+}
+
+/* Resources Page Grid - Taken from A1 and adapted */
+.resources-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.resource-card {
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.resource-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 26px rgba(0, 0, 0, 0.08);
+}
+
+.resource-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.resource-card h3 {
+  color: #a12c56;
+  font-weight: 700;
+  margin-top: 1rem;
+  font-size: 1.1rem;
+}
+
+.resource-card p {
+  padding: 0 1rem 1.5rem;
+  color: #333;
+  font-size: 0.95rem;
+}
+
+.resource-card a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.resource-card a:hover h3 {
+  color: #de6e8c; /* your gradient pink tone */
+}
 
 		
